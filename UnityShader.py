@@ -99,7 +99,8 @@ def _generateSymbolAndCompletions():
     builtinShaderFolderPath = os.path.join(
         pluginRootPath, candidates[0], "CGIncludes")
     symbol_list.generateSymbolList(builtinShaderFolderPath)
-    symbol_list.generateCompletesFile()
+    symbol_list.generateCompletesFile(False) #
+    symbol_list.generateCompletesFile(True) #生成 better completion 格式的目前
 
     _modifyLocalConfigVersion(targetVersion)
     sublime.message_dialog(

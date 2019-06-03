@@ -191,13 +191,19 @@ def printSymbolList():
         f.write("%s,\t%s,\t%s,\t%s\n" % (i.name, i.type, i.path, i.pos))
     f.close()
 
-def generateCompletesFile():
+def generateCompletesFile(forBetterCompletion = False):
     symbolFile = os.path.join(pluginRootPath, 'builtin_shader.symbol')
     f = open( symbolFile, 'r')
     symbolList = json.load(f, object_hook=Symbol.json2Symbol)
     f.close()
 
-    completesFile = os.path.join(pluginRootPath, 'builtin.sublime-completions')
+    filename = 'builtin.sublime-completions_'
+    template = '        { "trigger": "%s", "contents": "%s"},\n'
+    if forBetterCompletion:
+        filename = "../User/sbc-api-builtin.sublime-settings"
+        template = '        ["%s", "%s"],\n'
+
+    completesFile = os.path.join(pluginRootPath, filename)
     f = open(completesFile, 'w')
     f.write(r'''{
     "scope": "source.shader",
@@ -214,12 +220,16 @@ def generateCompletesFile():
 
         if i.type == "builtin-function":
             line = '        { "trigger": "%s", "contents": "%s"},\n' % (i.name+i.paramtip,  i.name+i.paramHolder)
+            line = template % (i.name+i.paramtip,  i.name+i.paramHolder)
         elif i.type == "builtin-marco":
             line = '        { "trigger": "%s\\tbuiltin-marco", "contents": "%s"},\n' % (i.name, i.name)
+            line = template % (i.name+"\\tbuiltin-marco",  i.name)
         elif i.type == "builtin-variable":
             line = '        { "trigger": "%s\\tbuiltin-variable", "contents": "%s"},\n' % (i.name, i.name)
+            line = template % (i.name+"\\tbuiltin-variable",  i.name)
         else:
             line = '        { "trigger": "%s", "contents": "%s"},\n' % (i.name, i.name)
+            line = template % (i.name, i.name)
 
         f.write(line)
     
@@ -232,4 +242,5 @@ def generateCompletesFile():
 if __name__ == "__main__":
     root = "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes"
     generateSymbolList(root)
-    generateCompletesFile()
+    generateCompletesFile(False)
+    generateCompletesFile(True)
