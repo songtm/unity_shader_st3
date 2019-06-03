@@ -219,16 +219,12 @@ def generateCompletesFile(forBetterCompletion = False):
             isExists.add(i.name)
 
         if i.type == "builtin-function":
-            line = '        { "trigger": "%s", "contents": "%s"},\n' % (i.name+i.paramtip,  i.name+i.paramHolder)
-            line = template % (i.name+i.paramtip,  i.name+i.paramHolder)
+            line = template % (i.name+i.paramtip+"\\tf",  i.name+i.paramHolder)
         elif i.type == "builtin-marco":
-            line = '        { "trigger": "%s\\tbuiltin-marco", "contents": "%s"},\n' % (i.name, i.name)
             line = template % (i.name+"\\tbuiltin-marco",  i.name)
         elif i.type == "builtin-variable":
-            line = '        { "trigger": "%s\\tbuiltin-variable", "contents": "%s"},\n' % (i.name, i.name)
             line = template % (i.name+"\\tbuiltin-variable",  i.name)
         else:
-            line = '        { "trigger": "%s", "contents": "%s"},\n' % (i.name, i.name)
             line = template % (i.name, i.name)
 
         f.write(line)
