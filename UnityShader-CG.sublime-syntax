@@ -5,7 +5,7 @@ name: UnityShader-CG
 file_extensions:
   - cginc
 first_line_match: (?=(#)[\s]*(pragma|include|ifdef|ifndef|if|elif|else|endif|define))
-scope: source.c
+scope: source.shader
 
 variables:
   identifier: '\b[[:alpha:]_][[:alnum:]_]*\b'
