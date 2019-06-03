@@ -37,6 +37,33 @@ def generateSymbolList(beginPath):
     json.dump(symbolList, f, default=lambda obj: obj.__dict__, indent = 4)
     f.close()
 
+def getParamInfo(paramStr, hasType = True):
+    #参数处理
+    param = paramStr.strip().strip("(").strip(")").replace("in ", "").replace("out ", "")  #简单处理 in out
+    if hasType:
+        itr = re.finditer(r"(\w+)\s+(\w+)", param, re.M)
+    else:
+        itr = re.finditer(r"(\w+)", param, re.M)
+    paramHolder = "("
+    paramtip = "("
+    count = 1
+    nameIndex = 1
+    if hasType :
+        nameIndex = 2
+    for ii in itr:
+        # print(ii.group(1), ii.group(2))
+        if count != 1:
+            paramHolder += ","    
+            paramtip += ","
+        paramHolder += "${"+str(count)+":"+ii.group(nameIndex)+"}"
+        # paramtip += ii.group(1)+":"+ii.group(2) #提示带参数
+        paramtip += ii.group(nameIndex)
+        count += 1
+        pass
+    paramHolder += ")"
+    paramtip += ")"
+    return [paramtip, paramHolder]
+
 def generateFunctionList(symbolList):
     for path, folders, files in os.walk(root):
         for filename in files:
@@ -53,31 +80,9 @@ def generateFunctionList(symbolList):
                 # todo, path截短
                 name = i.group(3)
                 #参数处理
-                param = i.group(4).strip().replace("in ", "").replace("out ", "")  #简单处理 in out
-                itr = re.finditer(r"(\w+)\s+(\w+)", param, re.M)
-                paramHolder = "("
-                paramtip = "("
-                count = 1
-                for ii in itr:
-                    # print(ii.group(1), ii.group(2))
-                    if count != 1:
-                        paramHolder += ","    
-                        paramtip += ","
-                    paramHolder += "${"+str(count)+":"+ii.group(2)+"}"
-                    # paramtip += ii.group(1)+":"+ii.group(2) #提示带参数
-                    paramtip += ii.group(2)
-                    count += 1
-                    pass
-                paramHolder += ")"
-                paramtip += ")"
-                # print("---------fun", name+paramtip)
-                # print(param)
-
-
-
-
-
-
+                resParam = getParamInfo(i.group(4))
+                paramtip = resParam[0]
+                paramHolder = resParam[1]
 
 
                 path = os.path.join(root, filename)
@@ -100,15 +105,26 @@ def generateDefineList(symbolList):
             buf = f.read()
             f.close()
 
-            functionIter = re.finditer(r"^[\s]*#define[\s]+(\w+)\b(?!\s*\n)", buf, re.M)
+            # functionIter = re.finditer(r"^[\s]*#define[\s]+(\w+)\b(?!\s*\n)", buf, re.M)
+            functionIter = re.finditer(r"[\s]*#define[\s]+(\w+)\b(?!\s*\n)((\(.*?\))?)", buf, re.M)
+            
             for i in functionIter:
                 name = i.group(1)
+                type = "builtin-marco"
+                paramtip = ""
+                paramHolder = ""
+                if len(i.group(2)) > 1: #有参数
+                    type = "builtin-function"
+                    rss = getParamInfo(i.group(2), False)
+                    paramtip = rss[0]
+                    paramHolder = rss[1]
+
                 path = os.path.join(root, filename)
                 path = path.replace(pluginRootPath+"\\", "")
                 lineNo = len(re.findall(r".*\n", buf[0:i.start()])) + 1
                 columnNo = re.search(i.group(1), i.group(0)).start()
                 pos = (lineNo, columnNo)
-                symbolList.append(Symbol(name, "builtin-marco", path, pos))
+                symbolList.append(Symbol(name, type, path, pos, paramtip, paramHolder))
 
 def generateVariableList(symbolList):
     for path, folders, files in os.walk(root):

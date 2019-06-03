@@ -3533,8 +3533,8 @@
     {
         "name": "_TANGENT_TO_WORLD", 
         "pos": [
-            14, 
-            9
+            13, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardInput.cginc", 
@@ -3544,8 +3544,8 @@
     {
         "name": "_DETAIL", 
         "pos": [
-            18, 
-            9
+            17, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardInput.cginc", 
@@ -3555,8 +3555,8 @@
     {
         "name": "EXCEEDS_D3D9_SM3_MAX_SAMPLER_COUNT", 
         "pos": [
-            213, 
-            8
+            212, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardInput.cginc", 
@@ -3566,8 +3566,8 @@
     {
         "name": "GLOSSMAP", 
         "pos": [
-            7, 
-            8
+            6, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCoreForwardSimple.cginc", 
@@ -3577,8 +3577,8 @@
     {
         "name": "SPECULAR_HIGHLIGHTS", 
         "pos": [
-            10, 
-            9
+            9, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCoreForwardSimple.cginc", 
@@ -3588,30 +3588,30 @@
     {
         "name": "JOIN2", 
         "pos": [
-            46, 
-            9
+            45, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a},${2:b})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCoreForwardSimple.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a,b)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "JOIN", 
         "pos": [
-            48, 
-            8
+            47, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a},${2:b})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCoreForwardSimple.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a,b)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNIFORM_REFLECTIVITY", 
         "pos": [
-            49, 
-            8
+            48, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCoreForwardSimple.cginc", 
@@ -3621,8 +3621,8 @@
     {
         "name": "mainTexUV", 
         "pos": [
-            27, 
-            9
+            26, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeCommon.cginc", 
@@ -3632,8 +3632,8 @@
     {
         "name": "Detail", 
         "pos": [
-            32, 
-            9
+            31, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeCommon.cginc", 
@@ -3643,8 +3643,8 @@
     {
         "name": "HueVariationAmount", 
         "pos": [
-            42, 
-            9
+            41, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeCommon.cginc", 
@@ -3654,52 +3654,52 @@
     {
         "name": "SPEEDTREE_DATA_NORMAL", 
         "pos": [
+            84, 
+            10
+        ], 
+        "paramHolder": "", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeCommon.cginc", 
+        "paramtip": "", 
+        "type": "builtin-marco"
+    }, 
+    {
+        "name": "SPEEDTREE_COPY_NORMAL", 
+        "pos": [
             85, 
-            9
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:to},${2:from})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeCommon.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(to,from)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SPEEDTREE_COPY_NORMAL", 
         "pos": [
-            86, 
-            9
+            88, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:to},${2:from})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeCommon.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "SPEEDTREE_COPY_NORMAL", 
-        "pos": [
-            89, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeCommon.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(to,from)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SPEEDTREE_COPY_FRAG", 
         "pos": [
-            91, 
-            9
+            90, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:to},${2:from})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeCommon.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(to,from)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "unityShadowCoord", 
         "pos": [
-            6, 
-            9
+            5, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
@@ -3709,8 +3709,8 @@
     {
         "name": "unityShadowCoord2", 
         "pos": [
-            8, 
-            8
+            7, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
@@ -3720,8 +3720,8 @@
     {
         "name": "unityShadowCoord3", 
         "pos": [
-            9, 
-            8
+            8, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
@@ -3731,8 +3731,8 @@
     {
         "name": "unityShadowCoord4", 
         "pos": [
-            10, 
-            8
+            9, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
@@ -3742,8 +3742,8 @@
     {
         "name": "unityShadowCoord4x4", 
         "pos": [
-            11, 
-            8
+            10, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
@@ -3753,371 +3753,371 @@
     {
         "name": "SHADOW_COORDS", 
         "pos": [
-            19, 
+            18, 
+            11
+        ], 
+        "paramHolder": "(${1:idx1})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(idx1)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "TRANSFER_SHADOW", 
+        "pos": [
+            25, 
+            9
+        ], 
+        "paramHolder": "(${1:a})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(a)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "TRANSFER_SHADOW", 
+        "pos": [
+            51, 
+            9
+        ], 
+        "paramHolder": "(${1:a})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(a)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "SHADOW_ATTENUATION", 
+        "pos": [
+            60, 
             10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "TRANSFER_SHADOW", 
-        "pos": [
-            26, 
-            8
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "TRANSFER_SHADOW", 
-        "pos": [
-            52, 
-            8
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "SHADOW_ATTENUATION", 
-        "pos": [
-            61, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_COORDS", 
+        "pos": [
+            68, 
+            10
+        ], 
+        "paramHolder": "(${1:idx1})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(idx1)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "TRANSFER_SHADOW", 
         "pos": [
             69, 
-            9
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
-        "name": "TRANSFER_SHADOW", 
+        "name": "SHADOW_ATTENUATION", 
         "pos": [
             70, 
-            9
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "SHADOW_ATTENUATION", 
-        "pos": [
-            71, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_COORDS", 
+        "pos": [
+            76, 
+            10
+        ], 
+        "paramHolder": "(${1:idx1})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(idx1)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "TRANSFER_SHADOW", 
         "pos": [
             77, 
-            9
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "TRANSFER_SHADOW", 
-        "pos": [
-            78, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_ATTENUATION", 
         "pos": [
-            79, 
-            9
+            78, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_COORDS", 
         "pos": [
-            84, 
-            9
+            83, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:idx1})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(idx1)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "TRANSFER_SHADOW", 
         "pos": [
-            85, 
-            9
+            84, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_ATTENUATION", 
         "pos": [
-            86, 
+            85, 
+            10
+        ], 
+        "paramHolder": "(${1:a})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(a)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_LIGHT_ATTENUATION", 
+        "pos": [
+            104, 
             9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:destName},${2:input},${3:worldPos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(destName,input,worldPos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_LIGHT_ATTENUATION", 
         "pos": [
-            105, 
-            8
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_LIGHT_ATTENUATION", 
-        "pos": [
-            122, 
-            8
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_LIGHT_ATTENUATION", 
-        "pos": [
-            129, 
+            121, 
             9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:destName},${2:input},${3:worldPos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(destName,input,worldPos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_LIGHT_ATTENUATION", 
         "pos": [
-            137, 
-            8
+            128, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:destName},${2:input},${3:worldPos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(destName,input,worldPos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_LIGHT_ATTENUATION", 
         "pos": [
-            145, 
-            8
+            136, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:destName},${2:input},${3:worldPos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(destName,input,worldPos)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_LIGHT_ATTENUATION", 
+        "pos": [
+            144, 
+            9
+        ], 
+        "paramHolder": "(${1:destName},${2:input},${3:worldPos})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(destName,input,worldPos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "LIGHTING_COORDS", 
+        "pos": [
+            157, 
+            9
+        ], 
+        "paramHolder": "(${1:idx1},${2:idx2})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(idx1,idx2)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "TRANSFER_VERTEX_TO_FRAGMENT", 
         "pos": [
             158, 
-            8
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
-        "name": "TRANSFER_VERTEX_TO_FRAGMENT", 
+        "name": "LIGHT_ATTENUATION", 
         "pos": [
             159, 
-            8
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "LIGHT_ATTENUATION", 
-        "pos": [
-            160, 
-            8
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "LIGHTING_COORDS", 
+        "pos": [
+            163, 
+            9
+        ], 
+        "paramHolder": "(${1:idx1},${2:idx2})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(idx1,idx2)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "TRANSFER_VERTEX_TO_FRAGMENT", 
         "pos": [
             164, 
-            8
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
-        "name": "TRANSFER_VERTEX_TO_FRAGMENT", 
+        "name": "LIGHT_ATTENUATION", 
         "pos": [
             165, 
-            8
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "LIGHT_ATTENUATION", 
-        "pos": [
-            166, 
-            8
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "LIGHTING_COORDS", 
+        "pos": [
+            169, 
+            10
+        ], 
+        "paramHolder": "(${1:idx1},${2:idx2})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(idx1,idx2)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "TRANSFER_VERTEX_TO_FRAGMENT", 
         "pos": [
             170, 
-            9
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
-        "name": "TRANSFER_VERTEX_TO_FRAGMENT", 
+        "name": "LIGHT_ATTENUATION", 
         "pos": [
             171, 
-            9
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "LIGHT_ATTENUATION", 
-        "pos": [
-            172, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "LIGHTING_COORDS", 
+        "pos": [
+            175, 
+            9
+        ], 
+        "paramHolder": "(${1:idx1},${2:idx2})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
+        "paramtip": "(idx1,idx2)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "TRANSFER_VERTEX_TO_FRAGMENT", 
         "pos": [
             176, 
-            8
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "TRANSFER_VERTEX_TO_FRAGMENT", 
-        "pos": [
-            177, 
-            8
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "LIGHT_ATTENUATION", 
         "pos": [
-            178, 
-            8
+            177, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "LIGHTING_COORDS", 
         "pos": [
-            182, 
-            8
+            181, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:idx1},${2:idx2})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(idx1,idx2)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "TRANSFER_VERTEX_TO_FRAGMENT", 
         "pos": [
-            183, 
-            8
+            182, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "LIGHT_ATTENUATION", 
         "pos": [
-            184, 
-            8
+            183, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/AutoLight.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_HANDLE_CORRECTLY_NEGATIVE_NDOTV", 
         "pos": [
-            241, 
-            8
+            240, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardBRDF.cginc", 
@@ -4127,8 +4127,8 @@
     {
         "name": "UNITY_STANDARD_USE_DITHER_MASK", 
         "pos": [
-            18, 
-            9
+            17, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardShadow.cginc", 
@@ -4138,8 +4138,8 @@
     {
         "name": "UNITY_STANDARD_USE_SHADOW_UVS", 
         "pos": [
-            24, 
-            8
+            23, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardShadow.cginc", 
@@ -4149,8 +4149,8 @@
     {
         "name": "UNITY_STANDARD_USE_SHADOW_OUTPUT_STRUCT", 
         "pos": [
-            29, 
-            8
+            28, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardShadow.cginc", 
@@ -4160,30 +4160,30 @@
     {
         "name": "SHADOW_JOIN2", 
         "pos": [
-            75, 
-            8
+            74, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a},${2:b})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardShadow.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a,b)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_JOIN", 
         "pos": [
-            76, 
-            8
+            75, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a},${2:b})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardShadow.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a,b)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_ONEMINUSREFLECTIVITY", 
         "pos": [
-            77, 
-            8
+            76, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardShadow.cginc", 
@@ -4193,118 +4193,118 @@
     {
         "name": "wind_cross", 
         "pos": [
-            118, 
-            9
+            117, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:a},${2:b})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeWind.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(a,b)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "IN_VIEWDIR4PARALLAX", 
+        "pos": [
+            150, 
+            10
+        ], 
+        "paramHolder": "(${1:i})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
+        "paramtip": "(i)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "IN_VIEWDIR4PARALLAX_FWDADD", 
         "pos": [
             151, 
-            9
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "IN_VIEWDIR4PARALLAX_FWDADD", 
-        "pos": [
-            152, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "IN_VIEWDIR4PARALLAX", 
         "pos": [
-            154, 
-            9
+            153, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "IN_VIEWDIR4PARALLAX_FWDADD", 
         "pos": [
-            155, 
-            9
+            154, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "IN_WORLDPOS", 
         "pos": [
-            159, 
-            9
+            158, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "IN_WORLDPOS", 
         "pos": [
-            161, 
-            9
+            160, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "IN_LIGHTDIR_FWDADD", 
         "pos": [
-            163, 
-            9
+            162, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "FRAGMENT_SETUP", 
         "pos": [
-            165, 
-            9
+            164, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:x})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(x)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "FRAGMENT_SETUP_FWDADD", 
         "pos": [
-            168, 
-            9
+            167, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:x})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(x)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_SETUP_BRDF_INPUT", 
         "pos": [
-            191, 
-            9
+            190, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardCore.cginc", 
@@ -4314,8 +4314,8 @@
     {
         "name": "IMPROVED_BAKED_AND_REALTIME_SHADOW_MIXING", 
         "pos": [
-            5, 
-            9
+            4, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityGlobalIllumination.cginc", 
@@ -4325,8 +4325,8 @@
     {
         "name": "WIND_QUALITY_NONE", 
         "pos": [
-            35, 
-            9
+            34, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeVertex.cginc", 
@@ -4336,8 +4336,8 @@
     {
         "name": "WIND_QUALITY_FASTEST", 
         "pos": [
-            37, 
-            8
+            36, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeVertex.cginc", 
@@ -4347,8 +4347,8 @@
     {
         "name": "WIND_QUALITY_FAST", 
         "pos": [
-            38, 
-            8
+            37, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeVertex.cginc", 
@@ -4358,8 +4358,8 @@
     {
         "name": "WIND_QUALITY_BETTER", 
         "pos": [
-            39, 
-            8
+            38, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeVertex.cginc", 
@@ -4369,8 +4369,8 @@
     {
         "name": "WIND_QUALITY_BEST", 
         "pos": [
-            40, 
-            8
+            39, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeVertex.cginc", 
@@ -4380,8 +4380,8 @@
     {
         "name": "WIND_QUALITY_PALM", 
         "pos": [
-            41, 
-            8
+            40, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeVertex.cginc", 
@@ -4391,8 +4391,8 @@
     {
         "name": "TERRAIN_SURFACE_OUTPUT", 
         "pos": [
-            76, 
-            9
+            75, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/TerrainSplatmapCommon.cginc", 
@@ -4402,8 +4402,8 @@
     {
         "name": "UNITY_PASS_META", 
         "pos": [
-            9, 
-            8
+            8, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardMeta.cginc", 
@@ -4413,8 +4413,8 @@
     {
         "name": "unity_BillboardCameraPosition", 
         "pos": [
-            13, 
-            9
+            12, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeBillboardCommon.cginc", 
@@ -4424,8 +4424,8 @@
     {
         "name": "unity_BillboardCameraXZAngle", 
         "pos": [
-            14, 
-            9
+            13, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/SpeedTreeBillboardCommon.cginc", 
@@ -4435,8 +4435,8 @@
     {
         "name": "UNITY_SPECCUBE_LOD_EXPONENT", 
         "pos": [
-            6, 
-            8
+            5, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4446,8 +4446,8 @@
     {
         "name": "UNITY_SPECCUBE_LOD_STEPS", 
         "pos": [
-            9, 
-            8
+            8, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4457,8 +4457,8 @@
     {
         "name": "UNITY_CONSERVE_ENERGY", 
         "pos": [
-            14, 
-            8
+            13, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4468,8 +4468,8 @@
     {
         "name": "UNITY_CONSERVE_ENERGY_MONOCHROME", 
         "pos": [
-            17, 
-            8
+            16, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4479,8 +4479,8 @@
     {
         "name": "UNITY_SPECCUBE_BOX_PROJECTION", 
         "pos": [
-            27, 
-            9
+            26, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4490,8 +4490,8 @@
     {
         "name": "UNITY_SPECCUBE_BLENDING", 
         "pos": [
-            29, 
-            9
+            28, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4501,8 +4501,8 @@
     {
         "name": "UNITY_SAMPLE_FULL_SH_PER_PIXEL", 
         "pos": [
-            34, 
-            8
+            33, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4512,8 +4512,8 @@
     {
         "name": "UNITY_BRDF_GGX", 
         "pos": [
-            38, 
-            8
+            37, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4523,8 +4523,8 @@
     {
         "name": "UNITY_TANGENT_ORTHONORMALIZE", 
         "pos": [
-            48, 
-            8
+            47, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4534,8 +4534,8 @@
     {
         "name": "UNITY_OPTIMIZE_TEXCUBELOD", 
         "pos": [
-            59, 
-            9
+            58, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4545,8 +4545,8 @@
     {
         "name": "UNITY_STANDARD_SIMPLE", 
         "pos": [
-            64, 
-            9
+            63, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4556,8 +4556,8 @@
     {
         "name": "UNITY_REQUIRE_FRAG_WORLDPOS", 
         "pos": [
-            68, 
-            8
+            67, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityStandardConfig.cginc", 
@@ -4567,8 +4567,8 @@
     {
         "name": "UNITY_DIRBASIS", 
         "pos": [
-            180, 
-            8
+            179, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/Lighting.cginc", 
@@ -4578,8 +4578,8 @@
     {
         "name": "glstate_matrix_projection", 
         "pos": [
-            17, 
-            9
+            16, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4589,8 +4589,8 @@
     {
         "name": "unity_MatrixV", 
         "pos": [
-            18, 
-            9
+            17, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4600,8 +4600,8 @@
     {
         "name": "unity_MatrixInvV", 
         "pos": [
-            19, 
-            9
+            18, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4611,8 +4611,8 @@
     {
         "name": "unity_MatrixVP", 
         "pos": [
-            20, 
-            9
+            19, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4622,8 +4622,8 @@
     {
         "name": "unity_CameraProjection", 
         "pos": [
-            21, 
-            10
+            20, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4633,8 +4633,8 @@
     {
         "name": "unity_CameraInvProjection", 
         "pos": [
-            23, 
-            9
+            22, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4644,8 +4644,8 @@
     {
         "name": "unity_WorldToCamera", 
         "pos": [
-            24, 
-            9
+            23, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4655,8 +4655,8 @@
     {
         "name": "unity_CameraToWorld", 
         "pos": [
-            25, 
-            9
+            24, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4666,8 +4666,8 @@
     {
         "name": "_WorldSpaceCameraPos", 
         "pos": [
-            26, 
-            10
+            25, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4677,8 +4677,8 @@
     {
         "name": "UNITY_MATRIX_P", 
         "pos": [
-            29, 
-            9
+            28, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4688,8 +4688,8 @@
     {
         "name": "UNITY_MATRIX_V", 
         "pos": [
-            31, 
-            8
+            30, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4699,8 +4699,8 @@
     {
         "name": "UNITY_MATRIX_I_V", 
         "pos": [
-            32, 
-            8
+            31, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4710,8 +4710,8 @@
     {
         "name": "UNITY_MATRIX_VP", 
         "pos": [
-            33, 
-            8
+            32, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4721,8 +4721,8 @@
     {
         "name": "UNITY_MATRIX_M", 
         "pos": [
-            34, 
-            8
+            33, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4731,20 +4731,20 @@
     }, 
     {
         "name": "UNITY_MATRIX_MVP", 
+        "pos": [
+            36, 
+            10
+        ], 
+        "paramHolder": "", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
+        "paramtip": "", 
+        "type": "builtin-marco"
+    }, 
+    {
+        "name": "UNITY_MATRIX_MV", 
         "pos": [
             37, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_MATRIX_MV", 
-        "pos": [
-            38, 
-            9
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4754,8 +4754,8 @@
     {
         "name": "UNITY_MATRIX_T_MV", 
         "pos": [
-            39, 
-            9
+            38, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4765,8 +4765,8 @@
     {
         "name": "UNITY_MATRIX_IT_MV", 
         "pos": [
-            40, 
-            9
+            39, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4776,8 +4776,8 @@
     {
         "name": "UNITY_MATRIX_MVP", 
         "pos": [
-            42, 
-            9
+            41, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4787,8 +4787,8 @@
     {
         "name": "UNITY_MATRIX_MV", 
         "pos": [
-            43, 
-            9
+            42, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4798,8 +4798,8 @@
     {
         "name": "UNITY_MATRIX_T_MV", 
         "pos": [
-            44, 
-            9
+            43, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4809,8 +4809,8 @@
     {
         "name": "UNITY_MATRIX_IT_MV", 
         "pos": [
-            45, 
-            9
+            44, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4820,8 +4820,8 @@
     {
         "name": "UNITY_LIGHTMODEL_AMBIENT", 
         "pos": [
-            47, 
-            9
+            46, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4831,8 +4831,8 @@
     {
         "name": "UNITY_LIGHT_PROBE_PROXY_VOLUME", 
         "pos": [
-            280, 
-            8
+            279, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4842,8 +4842,8 @@
     {
         "name": "UNITY_MATRIX_TEXTURE0", 
         "pos": [
-            303, 
-            8
+            302, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4853,8 +4853,8 @@
     {
         "name": "UNITY_MATRIX_TEXTURE1", 
         "pos": [
-            304, 
-            8
+            303, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4864,8 +4864,8 @@
     {
         "name": "UNITY_MATRIX_TEXTURE2", 
         "pos": [
-            305, 
-            8
+            304, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4875,8 +4875,8 @@
     {
         "name": "UNITY_MATRIX_TEXTURE3", 
         "pos": [
-            306, 
-            8
+            305, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityShaderVariables.cginc", 
@@ -4886,8 +4886,8 @@
     {
         "name": "UNITY_VERTEX_INPUT_INSTANCE_ID", 
         "pos": [
-            30, 
-            9
+            29, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -4897,8 +4897,52 @@
     {
         "name": "UNITY_TRANSFER_INSTANCE_ID", 
         "pos": [
+            30, 
+            10
+        ], 
+        "paramHolder": "(${1:input},${2:output})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
+        "paramtip": "(input,output)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_SETUP_INSTANCE_ID", 
+        "pos": [
             31, 
-            9
+            10
+        ], 
+        "paramHolder": "(${1:input})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
+        "paramtip": "(input)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO", 
+        "pos": [
+            33, 
+            10
+        ], 
+        "paramHolder": "(${1:output})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
+        "paramtip": "(output)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_TRANSFER_VERTEX_OUTPUT_STEREO", 
+        "pos": [
+            34, 
+            10
+        ], 
+        "paramHolder": "(${1:input},${2:output})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
+        "paramtip": "(input,output)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_VERTEX_INPUT_INSTANCE_ID", 
+        "pos": [
+            37, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -4906,10 +4950,32 @@
         "type": "builtin-marco"
     }, 
     {
+        "name": "UNITY_TRANSFER_INSTANCE_ID", 
+        "pos": [
+            40, 
+            10
+        ], 
+        "paramHolder": "(${1:input},${2:output})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
+        "paramtip": "(input,output)", 
+        "type": "builtin-function"
+    }, 
+    {
         "name": "UNITY_SETUP_INSTANCE_ID", 
         "pos": [
-            32, 
-            9
+            46, 
+            11
+        ], 
+        "paramHolder": "(${1:input})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
+        "paramtip": "(input)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_VERTEX_OUTPUT_STEREO", 
+        "pos": [
+            49, 
+            12
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -4919,62 +4985,62 @@
     {
         "name": "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO", 
         "pos": [
-            34, 
-            9
+            51, 
+            11
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:output})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(output)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_TRANSFER_VERTEX_OUTPUT_STEREO", 
         "pos": [
-            35, 
-            9
+            52, 
+            11
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:input},${2:output})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_VERTEX_INPUT_INSTANCE_ID", 
-        "pos": [
-            38, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_TRANSFER_INSTANCE_ID", 
-        "pos": [
-            41, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(input,output)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_SETUP_INSTANCE_ID", 
         "pos": [
-            47, 
-            10
+            54, 
+            11
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:input})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(input)", 
+        "type": "builtin-function"
     }, 
     {
-        "name": "UNITY_VERTEX_OUTPUT_STEREO", 
+        "name": "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO", 
         "pos": [
-            50, 
+            56, 
+            11
+        ], 
+        "paramHolder": "(${1:output})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
+        "paramtip": "(output)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_TRANSFER_VERTEX_OUTPUT_STEREO", 
+        "pos": [
+            57, 
+            11
+        ], 
+        "paramHolder": "(${1:input},${2:output})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
+        "paramtip": "(input,output)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_MAX_INSTANCE_COUNT", 
+        "pos": [
+            64, 
             11
         ], 
         "paramHolder": "", 
@@ -4983,65 +5049,10 @@
         "type": "builtin-marco"
     }, 
     {
-        "name": "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO", 
+        "name": "UNITY_INSTANCED_ARRAY_SIZE", 
         "pos": [
-            52, 
-            10
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_TRANSFER_VERTEX_OUTPUT_STEREO", 
-        "pos": [
-            53, 
-            10
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_SETUP_INSTANCE_ID", 
-        "pos": [
-            55, 
-            10
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO", 
-        "pos": [
-            57, 
-            10
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_TRANSFER_VERTEX_OUTPUT_STEREO", 
-        "pos": [
-            58, 
-            10
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_MAX_INSTANCE_COUNT", 
-        "pos": [
-            65, 
-            10
+            68, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -5051,19 +5062,8 @@
     {
         "name": "UNITY_INSTANCED_ARRAY_SIZE", 
         "pos": [
-            69, 
-            10
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_INSTANCED_ARRAY_SIZE", 
-        "pos": [
-            72, 
-            10
+            71, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -5072,20 +5072,20 @@
     }, 
     {
         "name": "UNITY_INSTANCING_CBUFFER_START", 
+        "pos": [
+            79, 
+            11
+        ], 
+        "paramHolder": "(${1:name})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
+        "paramtip": "(name)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_INSTANCING_CBUFFER_END", 
         "pos": [
             80, 
-            10
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_INSTANCING_CBUFFER_END", 
-        "pos": [
-            81, 
-            10
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -5095,19 +5095,19 @@
     {
         "name": "UNITY_INSTANCING_CBUFFER_START", 
         "pos": [
-            83, 
-            10
+            82, 
+            11
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:name})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(name)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_INSTANCING_CBUFFER_END", 
         "pos": [
-            84, 
-            10
+            83, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -5117,30 +5117,30 @@
     {
         "name": "UNITY_DEFINE_INSTANCED_PROP", 
         "pos": [
-            88, 
-            9
+            87, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:type},${2:name})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(type,name)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_ACCESS_INSTANCED_PROP", 
         "pos": [
-            91, 
-            9
+            90, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:name})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(name)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "unity_ObjectToWorld", 
         "pos": [
-            100, 
-            9
+            99, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -5150,8 +5150,8 @@
     {
         "name": "unity_WorldToObject", 
         "pos": [
-            101, 
-            9
+            100, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -5161,8 +5161,8 @@
     {
         "name": "unity_LODFade", 
         "pos": [
-            108, 
-            10
+            107, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -5172,63 +5172,63 @@
     {
         "name": "UNITY_TRANSFER_INSTANCE_ID", 
         "pos": [
-            115, 
-            9
+            114, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:input},${2:output})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(input,output)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_SETUP_INSTANCE_ID", 
         "pos": [
-            116, 
-            9
+            115, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:input})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(input)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO", 
         "pos": [
-            118, 
-            9
+            117, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:output})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(output)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_TRANSFER_VERTEX_OUTPUT_STEREO", 
         "pos": [
-            119, 
-            9
+            118, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:input},${2:output})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(input,output)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_INSTANCING_CBUFFER_START", 
         "pos": [
-            124, 
-            10
+            123, 
+            11
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:name})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(name)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_INSTANCING_CBUFFER_END", 
         "pos": [
-            126, 
-            9
+            125, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
@@ -5238,30 +5238,30 @@
     {
         "name": "UNITY_DEFINE_INSTANCED_PROP", 
         "pos": [
-            127, 
-            10
+            126, 
+            11
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:type},${2:name})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(type,name)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_ACCESS_INSTANCED_PROP", 
         "pos": [
-            129, 
-            9
+            128, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:name})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityInstancing.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(name)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_BRDF_PBS", 
         "pos": [
-            15, 
-            10
+            14, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityPBSLighting.cginc", 
@@ -5271,8 +5271,8 @@
     {
         "name": "UNITY_BRDF_PBS", 
         "pos": [
-            17, 
-            10
+            16, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityPBSLighting.cginc", 
@@ -5282,8 +5282,8 @@
     {
         "name": "UNITY_BRDF_PBS", 
         "pos": [
-            19, 
-            10
+            18, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityPBSLighting.cginc", 
@@ -5293,8 +5293,8 @@
     {
         "name": "UNITY_BRDF_PBS", 
         "pos": [
-            21, 
-            10
+            20, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityPBSLighting.cginc", 
@@ -5304,8 +5304,8 @@
     {
         "name": "UNITY_BRDF_PBS", 
         "pos": [
-            24, 
-            10
+            23, 
+            11
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityPBSLighting.cginc", 
@@ -5315,8 +5315,8 @@
     {
         "name": "UNITY_BRDF_PBS_LIGHTMAP_INDIRECT", 
         "pos": [
-            38, 
-            9
+            37, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityPBSLighting.cginc", 
@@ -5326,8 +5326,8 @@
     {
         "name": "UNITY_BRDF_GI", 
         "pos": [
-            41, 
-            9
+            40, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityPBSLighting.cginc", 
@@ -5337,41 +5337,41 @@
     {
         "name": "UNITY_GLOSSY_ENV_FROM_SURFACE", 
         "pos": [
-            68, 
-            9
+            67, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:x},${2:s},${3:data})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityPBSLighting.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(x,s,data)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_GI", 
         "pos": [
-            76, 
-            9
+            75, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:x},${2:s},${3:data})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityPBSLighting.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(x,s,data)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_GI", 
         "pos": [
-            78, 
-            9
+            77, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:x},${2:s},${3:data})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityPBSLighting.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(x,s,data)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_PI", 
         "pos": [
-            3, 
-            9
+            2, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5381,8 +5381,8 @@
     {
         "name": "UNITY_TWO_PI", 
         "pos": [
-            5, 
-            8
+            4, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5392,8 +5392,8 @@
     {
         "name": "UNITY_FOUR_PI", 
         "pos": [
-            6, 
-            8
+            5, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5403,8 +5403,8 @@
     {
         "name": "UNITY_INV_PI", 
         "pos": [
-            7, 
-            8
+            6, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5414,8 +5414,8 @@
     {
         "name": "UNITY_INV_TWO_PI", 
         "pos": [
-            8, 
-            8
+            7, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5425,8 +5425,8 @@
     {
         "name": "UNITY_INV_FOUR_PI", 
         "pos": [
-            9, 
-            8
+            8, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5436,8 +5436,8 @@
     {
         "name": "UNITY_HALF_PI", 
         "pos": [
-            10, 
-            8
+            9, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5447,8 +5447,8 @@
     {
         "name": "UNITY_INV_HALF_PI", 
         "pos": [
-            11, 
-            8
+            10, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5457,20 +5457,20 @@
     }, 
     {
         "name": "unity_ColorSpaceGrey", 
+        "pos": [
+            16, 
+            9
+        ], 
+        "paramHolder": "", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
+        "paramtip": "", 
+        "type": "builtin-marco"
+    }, 
+    {
+        "name": "unity_ColorSpaceDouble", 
         "pos": [
             17, 
-            8
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "unity_ColorSpaceDouble", 
-        "pos": [
-            18, 
-            8
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5480,8 +5480,8 @@
     {
         "name": "unity_ColorSpaceDielectricSpec", 
         "pos": [
-            19, 
-            8
+            18, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5491,8 +5491,8 @@
     {
         "name": "unity_ColorSpaceLuminance", 
         "pos": [
-            20, 
-            8
+            19, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5502,8 +5502,8 @@
     {
         "name": "unity_ColorSpaceGrey", 
         "pos": [
-            22, 
-            8
+            21, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5513,8 +5513,8 @@
     {
         "name": "unity_ColorSpaceDouble", 
         "pos": [
-            23, 
-            8
+            22, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5524,8 +5524,8 @@
     {
         "name": "unity_ColorSpaceDielectricSpec", 
         "pos": [
-            24, 
-            8
+            23, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5535,8 +5535,8 @@
     {
         "name": "unity_ColorSpaceLuminance", 
         "pos": [
-            25, 
-            8
+            24, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5546,8 +5546,8 @@
     {
         "name": "SCALED_NORMAL", 
         "pos": [
-            35, 
-            9
+            34, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5557,8 +5557,8 @@
     {
         "name": "LIGHTMAP_RGBM_SCALE", 
         "pos": [
-            40, 
-            8
+            39, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5568,8 +5568,8 @@
     {
         "name": "EMISSIVE_RGBM_SCALE", 
         "pos": [
-            41, 
-            8
+            40, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5579,8 +5579,8 @@
     {
         "name": "UNITY_SHOULD_SAMPLE_SH", 
         "pos": [
-            46, 
-            8
+            45, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5590,8 +5590,8 @@
     {
         "name": "TANGENT_SPACE_ROTATION", 
         "pos": [
-            256, 
-            8
+            255, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5601,85 +5601,85 @@
     {
         "name": "TRANSFORM_TEX", 
         "pos": [
-            452, 
-            8
+            451, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:tex},${2:name})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(tex,name)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "TRANSFORM_UV", 
         "pos": [
-            455, 
-            8
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UnityStereoScreenSpaceUVAdjust", 
-        "pos": [
-            743, 
+            454, 
             9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:idx})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(idx)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UnityStereoScreenSpaceUVAdjust", 
         "pos": [
-            756, 
-            8
+            742, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:x},${2:y})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(x,y)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UnityStereoScreenSpaceUVAdjust", 
+        "pos": [
+            755, 
+            9
+        ], 
+        "paramHolder": "(${1:x},${2:y})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
+        "paramtip": "(x,y)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UnityStereoTransformScreenSpaceTex", 
         "pos": [
-            757, 
-            8
+            756, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:uv})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(uv)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "DECODE_EYEDEPTH", 
         "pos": [
-            761, 
-            8
+            760, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "COMPUTE_EYEDEPTH", 
         "pos": [
-            762, 
-            8
+            761, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "COMPUTE_DEPTH_01", 
         "pos": [
-            763, 
-            8
+            762, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5689,8 +5689,8 @@
     {
         "name": "COMPUTE_VIEW_NORMAL", 
         "pos": [
-            764, 
-            8
+            763, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5700,8 +5700,8 @@
     {
         "name": "V2F_SCREEN_TYPE", 
         "pos": [
-            768, 
-            8
+            767, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5711,8 +5711,8 @@
     {
         "name": "V2F_SHADOW_CASTER_NOPOS", 
         "pos": [
-            886, 
-            9
+            885, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5721,75 +5721,75 @@
     }, 
     {
         "name": "TRANSFER_SHADOW_CASTER_NOPOS_LEGACY", 
+        "pos": [
+            886, 
+            10
+        ], 
+        "paramHolder": "(${1:o},${2:opos})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
+        "paramtip": "(o,opos)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "TRANSFER_SHADOW_CASTER_NOPOS", 
         "pos": [
             887, 
-            9
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o},${2:opos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "TRANSFER_SHADOW_CASTER_NOPOS", 
-        "pos": [
-            888, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o,opos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_CASTER_FRAGMENT", 
         "pos": [
-            889, 
-            9
+            888, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "TRANSFER_SHADOW_CASTER_NOPOS_LEGACY", 
         "pos": [
-            896, 
-            9
+            895, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o},${2:opos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o,opos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "TRANSFER_SHADOW_CASTER_NOPOS", 
         "pos": [
-            899, 
-            9
+            898, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o},${2:opos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o,opos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_CASTER_FRAGMENT", 
         "pos": [
-            902, 
-            9
+            901, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "V2F_SHADOW_CASTER", 
         "pos": [
-            907, 
-            8
+            906, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -5799,261 +5799,261 @@
     {
         "name": "TRANSFER_SHADOW_CASTER_NORMALOFFSET", 
         "pos": [
-            911, 
-            8
+            910, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "TRANSFER_SHADOW_CASTER", 
         "pos": [
-            915, 
-            8
+            914, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_OPAQUE_ALPHA", 
         "pos": [
-            920, 
-            9
+            919, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:outputAlpha})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(outputAlpha)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_Z_0_FAR_FROM_CLIPSPACE", 
         "pos": [
-            944, 
-            9
+            943, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_Z_0_FAR_FROM_CLIPSPACE", 
         "pos": [
-            947, 
-            9
+            946, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_Z_0_FAR_FROM_CLIPSPACE", 
         "pos": [
-            950, 
-            9
+            949, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_CALC_FOG_FACTOR_RAW", 
         "pos": [
-            955, 
-            9
+            954, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_CALC_FOG_FACTOR_RAW", 
         "pos": [
-            958, 
-            9
+            957, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_CALC_FOG_FACTOR_RAW", 
         "pos": [
-            961, 
-            9
+            960, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_CALC_FOG_FACTOR_RAW", 
         "pos": [
-            963, 
-            9
+            962, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_CALC_FOG_FACTOR", 
         "pos": [
-            965, 
-            9
+            964, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_FOG_COORDS_PACKED", 
         "pos": [
-            967, 
-            9
+            966, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:idx},${2:vectype})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(idx,vectype)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_FOG_COORDS", 
         "pos": [
-            971, 
-            9
+            970, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:idx})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(idx)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_TRANSFER_FOG", 
         "pos": [
-            975, 
-            10
+            974, 
+            11
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o},${2:outpos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o,outpos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_TRANSFER_FOG", 
         "pos": [
-            978, 
-            10
+            977, 
+            11
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o},${2:outpos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o,outpos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_FOG_COORDS", 
+        "pos": [
+            980, 
+            10
+        ], 
+        "paramHolder": "(${1:idx})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
+        "paramtip": "(idx)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_TRANSFER_FOG", 
         "pos": [
             981, 
-            9
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o},${2:outpos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_TRANSFER_FOG", 
-        "pos": [
-            982, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o,outpos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_FOG_LERP_COLOR", 
         "pos": [
-            984, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_APPLY_FOG_COLOR", 
-        "pos": [
-            991, 
+            983, 
             10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:col},${2:fogCol},${3:fogFac})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(col,fogCol,fogFac)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_APPLY_FOG_COLOR", 
         "pos": [
-            994, 
+            990, 
+            11
+        ], 
+        "paramHolder": "(${1:coord},${2:col},${3:fogCol})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
+        "paramtip": "(coord,col,fogCol)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_APPLY_FOG_COLOR", 
+        "pos": [
+            993, 
+            11
+        ], 
+        "paramHolder": "(${1:coord},${2:col},${3:fogCol})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
+        "paramtip": "(coord,col,fogCol)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_APPLY_FOG_COLOR", 
+        "pos": [
+            996, 
             10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord},${2:col},${3:fogCol})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_APPLY_FOG_COLOR", 
-        "pos": [
-            997, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord,col,fogCol)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_APPLY_FOG", 
         "pos": [
-            1001, 
-            9
+            1000, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord},${2:col})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord,col)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_APPLY_FOG", 
         "pos": [
-            1003, 
-            9
+            1002, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord},${2:col})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord,col)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_DITHER_CROSSFADE_COORDS", 
         "pos": [
-            1010, 
-            9
+            1009, 
+            10
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -6062,97 +6062,97 @@
     }, 
     {
         "name": "UNITY_DITHER_CROSSFADE_COORDS_IDX", 
+        "pos": [
+            1010, 
+            10
+        ], 
+        "paramHolder": "(${1:idx})", 
+        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
+        "paramtip": "(idx)", 
+        "type": "builtin-function"
+    }, 
+    {
+        "name": "UNITY_TRANSFER_DITHER_CROSSFADE", 
         "pos": [
             1011, 
-            9
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o},${2:v})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
-    }, 
-    {
-        "name": "UNITY_TRANSFER_DITHER_CROSSFADE", 
-        "pos": [
-            1012, 
-            9
-        ], 
-        "paramHolder": "", 
-        "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o,v)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_TRANSFER_DITHER_CROSSFADE_HPOS", 
         "pos": [
-            1013, 
-            9
+            1012, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o},${2:hpos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o,hpos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_APPLY_DITHER_CROSSFADE", 
         "pos": [
-            1020, 
-            9
+            1019, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_DITHER_CROSSFADE_COORDS_IDX", 
         "pos": [
-            1030, 
-            9
+            1029, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:idx})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(idx)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_TRANSFER_DITHER_CROSSFADE", 
         "pos": [
-            1031, 
-            9
+            1030, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o},${2:v})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o,v)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_TRANSFER_DITHER_CROSSFADE_HPOS", 
         "pos": [
-            1032, 
-            9
+            1031, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o},${2:hpos})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o,hpos)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_APPLY_DITHER_CROSSFADE", 
         "pos": [
-            1033, 
-            9
+            1032, 
+            10
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "V2F_SHADOW_COLLECTOR", 
         "pos": [
-            1050, 
-            8
+            1049, 
+            9
         ], 
         "paramHolder": "", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
@@ -6162,79 +6162,79 @@
     {
         "name": "TRANSFER_SHADOW_COLLECTOR", 
         "pos": [
-            1051, 
-            8
+            1050, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:o})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(o)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SAMPLE_SHADOW_COLLECTOR_SHADOW", 
         "pos": [
-            1062, 
-            8
+            1061, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:coord})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(coord)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "COMPUTE_SHADOW_COLLECTOR_SHADOW", 
         "pos": [
-            1067, 
-            8
+            1066, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i},${2:weights},${3:shadowFade})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i,weights,shadowFade)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_COLLECTOR_FRAGMENT", 
         "pos": [
-            1078, 
-            8
+            1077, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "SHADOW_COLLECTOR_FRAGMENT", 
         "pos": [
-            1090, 
-            8
+            1089, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_TRANSFER_DEPTH", 
         "pos": [
-            1103, 
-            8
+            1102, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:oo})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(oo)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "UNITY_OUTPUT_DEPTH", 
         "pos": [
-            1105, 
-            8
+            1104, 
+            9
         ], 
-        "paramHolder": "", 
+        "paramHolder": "(${1:i})", 
         "path": "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes/UnityCG.cginc", 
-        "paramtip": "", 
-        "type": "builtin-marco"
+        "paramtip": "(i)", 
+        "type": "builtin-function"
     }, 
     {
         "name": "_ShadowMapTexture", 
