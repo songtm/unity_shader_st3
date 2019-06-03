@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
 import os
 import re
 import json
@@ -7,15 +10,17 @@ except:
     from .common import pluginRootPath
 
 class Symbol(object):
-    def __init__(self, name = "", type = "", path = "", pos = (0,0)):
+    def __init__(self, name = "", type = "", path = "", pos = (0,0), paramtip = "", paramHolder = ""):
         self.name = name
         self.type = type;
         self.path = path
         self.pos = pos
+        self.paramtip = paramtip
+        self.paramHolder = paramHolder
 
     @staticmethod
     def json2Symbol(d):
-        return Symbol(d['name'], d['type'], d['path'], d['pos'])
+        return Symbol(d['name'], d['type'], d['path'], d['pos'], d['paramtip'], d['paramHolder'])
 
 # builtin_shader root path
 root = ""
@@ -35,21 +40,53 @@ def generateSymbolList(beginPath):
 def generateFunctionList(symbolList):
     for path, folders, files in os.walk(root):
         for filename in files:
+            # if filename != "AutoLight.cginc":
+            #     continue
             f = open(os.path.join(root, filename))
             buf = f.read()
             f.close()
-
-            functionIter = re.finditer(r"^(inline[ \t]+)?[ \t]*[\w]+[ \t]+(\w+)[ \t]*\((([ \t]*(\w+[ \t]+)?\w+[ \t]+\w)|([ \t]*\n)|([ \t]*\)))",
+            cmd = r"^(inline\s+)?(\w+)\s+(\w+)\s*\(([\s\S]*?)\)"
+            #cmd = r"^(inline[ \t]+)?[ \t]*[\w]+[ \t]+(\w+)[ \t]*\((([ \t]*(\w+[ \t]+)?\w+[ \t]+\w)|([ \t]*\n)|([ \t]*\)))"
+            functionIter = re.finditer(cmd,
                 buf, re.M)
             for i in functionIter:
                 # todo, path截短
-                name = i.group(2)
+                name = i.group(3)
+                #参数处理
+                param = i.group(4).strip().replace("in ", "").replace("out ", "")  #简单处理 in out
+                itr = re.finditer(r"(\w+)\s+(\w+)", param, re.M)
+                paramHolder = "("
+                paramtip = "("
+                count = 1
+                for ii in itr:
+                    # print(ii.group(1), ii.group(2))
+                    if count != 1:
+                        paramHolder += ","    
+                        paramtip += ","
+                    paramHolder += "${"+str(count)+":"+ii.group(2)+"}"
+                    # paramtip += ii.group(1)+":"+ii.group(2) #提示带参数
+                    paramtip += ii.group(2)
+                    count += 1
+                    pass
+                paramHolder += ")"
+                paramtip += ")"
+                # print("---------fun", name+paramtip)
+                # print(param)
+
+
+
+
+
+
+
+
                 path = os.path.join(root, filename)
                 path = path.replace(pluginRootPath+"\\", "")
                 lineNo = len(re.findall(r".*\n", buf[0:i.start()])) + 1
-                columnNo = re.search(i.group(2), i.group(0)).start()
+                columnNo = re.search(i.group(3), i.group(0)).start()
                 pos = (lineNo, columnNo)
-                symbolList.append(Symbol(name, "builtin-function", path, pos))
+                symbolList.append(Symbol(name, "builtin-function", path, pos, paramtip, paramHolder))
+
 
 
 def generateDefineList(symbolList):
@@ -160,7 +197,7 @@ def generateCompletesFile():
             isExists.add(i.name)
 
         if i.type == "builtin-function":
-            line = '        { "trigger": "%s\\tbuiltin-function", "contents": "%s($0)"},\n' % (i.name, i.name)
+            line = '        { "trigger": "%s", "contents": "%s"},\n' % (i.name+i.paramtip,  i.name+i.paramHolder)
         elif i.type == "builtin-marco":
             line = '        { "trigger": "%s\\tbuiltin-marco", "contents": "%s"},\n' % (i.name, i.name)
         elif i.type == "builtin-variable":
@@ -177,6 +214,6 @@ def generateCompletesFile():
     f.close()
 
 if __name__ == "__main__":
-    root = r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\builtin_shaders-5.3.4f1\CGIncludes"
+    root = "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes"
     generateSymbolList(root)
     generateCompletesFile()
