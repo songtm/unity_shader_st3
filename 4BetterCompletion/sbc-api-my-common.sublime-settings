@@ -1,0 +1,13 @@
+{
+	"scope": "source.lua",
+	"completions": 
+	[
+		["ctor()", "ctor()" ],
+		["false", "false" ],
+		["new(...)", "new(${1:...})" ],
+		["super", "super"],
+		["tolua.type(obj)", "tolua.type(${1:obj})" ],
+		["tolua.cast(obj,type)", "tolua.cast(${1:obj}, ${2:type})" ],
+		["tolua.isnull(obj)", "tolua.isnull(${1:obj})"],
+	]
+}
