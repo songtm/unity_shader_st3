@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[_${1:MainTex} ("${2:${1:MainTex}}", 2D) = "${3:white}" {}
+]]></content>
+	<tabTrigger>_Texture2D</tabTrigger>
+	<scope>source.shader</scope>
+    <description>纹理属性</description>
+</snippet>

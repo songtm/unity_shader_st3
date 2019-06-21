@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[_${1:IntValue} ("${2:${1:IntValue}}", Int) = ${3:1}
+]]></content>
+	<tabTrigger>_Int</tabTrigger>
+	<scope>source.shader</scope>
+    <description>Int属性</description>
+</snippet>

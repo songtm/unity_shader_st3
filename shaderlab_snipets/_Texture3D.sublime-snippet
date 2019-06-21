@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[_${1:Tex3D} ("${2:${1:Tex3D}}", 3D) = "${3:}" {}
+]]></content>
+	<tabTrigger>_Texture3D</tabTrigger>
+	<scope>source.shader</scope>
+    <description>纹理属性</description>
+</snippet>
