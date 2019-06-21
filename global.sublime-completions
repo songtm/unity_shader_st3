@@ -36,7 +36,7 @@
         { "trigger": "Overlay\tg", "contents": "Overlay"},
         { "trigger": "POSITION\tg", "contents": "POSITION ${0:}"},
         { "trigger": "Pass\tg", "contents": "Pass {${0:}}"},
-        { "trigger": "Properties\tg", "contents": "Properties(${0:})"},
+        { "trigger": "Properties\tg", "contents": "Properties{${0:}}"},
         { "trigger": "QUAD\tg", "contents": "QUAD "},
         { "trigger": "RWStructuredBuffer\tg", "contents": "RWStructuredBuffer"},
         { "trigger": "RWTexture2D\tg", "contents": "RWTexture2D"},
