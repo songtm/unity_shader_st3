@@ -36,7 +36,7 @@
         ["Overlay\tg", "Overlay"],
         ["POSITION\tg", "POSITION ${0:}"],
         ["Pass\tg", "Pass {${0:}}"],
-        ["Properties\tg", "Properties(${0:})"],
+        ["Properties\tg", "Properties{${0:}}"],
         ["QUAD\tg", "QUAD "],
         ["RWStructuredBuffer\tg", "RWStructuredBuffer"],
         ["RWTexture2D\tg", "RWTexture2D"],
