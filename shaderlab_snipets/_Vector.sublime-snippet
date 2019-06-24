@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[_${1:Vector} ("${2:${1:Vector}}", Vector) = ${3:(1, 0, 0, 0)}
+	<content><![CDATA[_${1:Vector} ("${2:${1:Vector}}", Vector) = ${3:(1, 0, 0, 0)} ${4:float4 _${1:Vector};}
 ]]></content>
 	<tabTrigger>_Vector</tabTrigger>
 	<scope>source.shader</scope>

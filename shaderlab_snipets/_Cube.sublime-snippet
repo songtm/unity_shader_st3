@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[_${1:Cubemap} ("${2:${1:Cubemap}}", Cube) = "${3:}" {}
+	<content><![CDATA[_${1:Cubemap} ("${2:${1:Cubemap}}", Cube) = "${3:}" {} ${4:samplerCUBE _${1:Vector};}
 ]]></content>
 	<tabTrigger>_Cube</tabTrigger>
 	<scope>source.shader</scope>

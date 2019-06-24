@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[_${1:MainTex} ("${2:${1:MainTex}}", 2D) = "${3:white}" {}
+	<content><![CDATA[_${1:MainTex} ("${2:${1:MainTex}}", 2D) = "${3:white}" {} ${4:sampler2D _${1:Vector};}
 ]]></content>
 	<tabTrigger>_Texture2D</tabTrigger>
 	<scope>source.shader</scope>

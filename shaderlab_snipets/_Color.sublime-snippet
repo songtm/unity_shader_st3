@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[_${1:Color} ("${2:${1:Color}}", Color) = ${3:(1, 1, 1, 1)}
+	<content><![CDATA[_${1:Color} ("${2:${1:Color}}", Color) = ${3:(1, 1, 1, 1)} ${4:fixed4 _${1:Vector};}
 ]]></content>
 	<tabTrigger>_Color</tabTrigger>
 	<scope>source.shader</scope>
