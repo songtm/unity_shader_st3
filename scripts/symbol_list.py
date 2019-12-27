@@ -197,7 +197,7 @@ def generateCompletesFile(forBetterCompletion = False):
     symbolList = json.load(f, object_hook=Symbol.json2Symbol)
     f.close()
 
-    filename = 'builtin.sublime-completions_'
+    filename = 'builtin.sublime-completions'
     template = '        { "trigger": "%s", "contents": "%s"},\n'
     if forBetterCompletion:
         filename = "../User/sbc-api-builtin.sublime-settings"
@@ -236,7 +236,8 @@ def generateCompletesFile(forBetterCompletion = False):
     f.close()
 
 if __name__ == "__main__":
-    root = "/Users/songtianming/Library/Application Support/Sublime Text 3/Packages/unity_shader_st3/builtin_shaders-5.5.0f3/CGIncludes"
+    print("xxx")
+    root = "C:\\Users\\songtianming\\AppData\\Roaming\\Sublime Text 3\\Packages\\unity_shader_st3\\builtin_shaders-5.5.0f3\\CGIncludes"
     generateSymbolList(root)
     generateCompletesFile(False)
     generateCompletesFile(True)
